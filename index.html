@@ -4,24 +4,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+        <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css' type='text/css'>
     </head>
 
     <body>
         <div class="main">
-            <section class="banner">
-                
-                    
-                  
+            <section class="banner">                  
                     <div class="searcher-img" style="display:flex;justify-content:center;align-items:center;">
-                        <img src="shake.jpg" alt="logo image" width="auto" height="auto">
+                        <div class="shake-slow">
+                            <img src="shake.png" alt="logo image" width="auto" height="auto">
+                    
+                        </div>
                     </div>
 
-                    <h1 style="display:flex;justify-content:center;align-items:center;">
-                        Bordão
+                    <h1 style="display:flex;justify-content:center;align-items:center;font-family: fantasy; font-synthesis: style;" >
+                        shake and search
                     </h1>
-                    <div style="display:flex;justify-content:center;align-items:center;" >
-                        <input type='text' placeholder="what do you want to know?" >
-                    </div>
+                    
+                        <div style="display:flex;justify-content:center;align-items:center;" >
+                            <input type="text" placeholder="what do you want to know?"  >
+                            <div id="lupa" ></div>
+                        </div>
+                    
                     <div style="display:flex;justify-content:center;align-items:center;">
                         <button value="Shake it" onclick="msg()">
                             Shake it
@@ -30,8 +35,7 @@
                     
                     <div class = 'js_field' style="display:flex;justify-content:center;align-items:center;">
                         <script src="script.js"> </script>
-                    </div>
-               
+                    </div>               
             </section>
         </div>
     </body>
