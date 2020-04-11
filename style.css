@@ -1,3 +1,6 @@
+
+  
+
 .main{
     margin: 0;
     padding: 0;
@@ -10,6 +13,7 @@ body{
     color: #03d1d1;
     
 }
+
 
 button{
     border: none;
@@ -40,19 +44,75 @@ button{
     height: 250px;
  }
 
-/* formatação do elemento */
-#lupa{
-    float:left;
-    margin:3px 0px 0px -20px;
-    cursor:pointer
- }
  
- /* formatação do conteúdo  */
- #lupa:after{
-    font-family:FontAwesome;
-    font-size:14px;
-    content:"\f002"
+
+
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+.footer {
+   padding: 20px;
+   text-align: center;
+   background: #ddd;
+   margin-top: 20px;
  }
 
+.header {
+  overflow: hidden;
+  background-color: #f1f1f100;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgba(221, 221, 221, 0.596);
+  color: black;
+}
+
+.header a.active {
+  background-color: #9c04889d;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
 
 
+
+
+
+ 
