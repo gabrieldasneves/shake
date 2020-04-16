@@ -1,3 +1,4 @@
-function msg() {
-    alert("Hello world!");
+function result() {
+  location.href="result.html"
   }
+  
